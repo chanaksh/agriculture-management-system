@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(../images/background/login-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-login{
+     position: relative;
+     width: 37rem;
+     
+     border-radius: 2rem;
+     -webkit-border-radius: 2rem;
+     -moz-border-radius: 2rem;
+     -ms-border-radius: 2rem;
+     -o-border-radius: 2rem;
+     background: linear-gradient(135deg,rgba(255,255,255,0.1));
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+     border: 3px solid rgba(255,255,255,0.5);
+     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.4);
+     overflow: hidden;
+     
+}
+
+.short{
+    height: 46rem;
+}
+
+.long{
+    height: 60rem;
+}
+
+.button-box{
+    width: 22rem;
+
+    margin: 4.7rem auto;
+    position: relative;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    box-shadow: 0 0 2rem 1rem white;
+}
+
+.log{
+    padding: 1rem 3rem;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: transparent;
+    outline: none;
+    
+    font-weight: bold;
+    
+}
+.btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: green;
+    width: 11rem;
+    height: 100%;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    transition: .5s;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+}
+
+.form-input{
+    top: 13rem;
+    position: absolute;
+    width: 28rem;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    
+}
+
+.input-btn{
+    width: 100%;
+    padding: 1rem 1rem;
+    margin: 0 0.5rem ;
+    border: none;
+    border-bottom: 0.2rem solid white;
+    background: transparent;
+    font-size: 1.6rem;
+    outline: none;
+    
+
+}
+
+
+.submit-btn{
+    width: 85%;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:linear-gradient(pink,blue) ;
+    border: none;
+    outline: none;
+    border-radius:3rem ;
+    -webkit-border-radius:3rem ;
+    -moz-border-radius:3rem ;
+    -ms-border-radius:3rem ;
+    -o-border-radius:3rem ;
+}
+
+.check{
+    margin: 3rem 1rem 3rem 0;
+}
+
+.check-content{
+    font-size: 1.2rem;
+    color: white;
+    top: -0.2rem;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+
+#Login{
+    left:5rem
+}
+
+#register{
+    left:45rem
+}
+
+.divide{
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 15rem;
+    height: 0.2rem;
+    background-color:white;
+ 
+}
+
+.or_text{
+    font-size: 2rem;
+}
+
+.icon{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.icon_option{
+    position: relative;
+    top: 5.3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.optverify{
+    display: flex;
+}
+
+.optverify .Otp_btn{
+    width: 12rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.4rem;
+    font-size: 1.4rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    color: white;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    border: none;
+}
+
+.send-btn{
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    background-color: palevioletred;
+    border: 2px solid white;
+    margin: 3rem auto;
+    border-radius:1rem ;
+    -webkit-border-radius:1rem ;
+    -moz-border-radius:1rem ;
+    -ms-border-radius:1rem ;
+    -o-border-radius:1rem ;
+}

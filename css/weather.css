@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/background/whether-back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 40rem;
+    height: 48rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 3px solid rgba(255,255,255,0.5);
+     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.4);
+    overflow: hidden;
+    position: absolute;
+    
+}
+
+.search-box{
+    width: 36rem;
+    margin: 2rem auto;
+    display: flex;
+}
+
+.search-box i{
+    font-size: 3rem;
+}
+.search-box input{
+    width: 90%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 0.3rem solid black;
+    font-size: 1.7rem; 
+}
+
+.search-box ::placeholder {
+    color: black;
+    opacity: 1; 
+  }
+
+.search-box button{
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    position: relative;
+    left: -3rem;
+    cursor: pointer;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.weather img{
+    height: 12rem;
+    width: auto;
+}
+
+.weather .celci{
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+   
+}
+.weather .temp{
+    font-size: 5rem;
+}
+
+.weather .unit{
+    position: relative;
+    top:0.2rem;
+    font-size: 2rem;
+}
+
+.weather .description{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.weather-details{
+    height: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 9rem;
+}
+
+.weather .city{
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.humidity-details,.wind{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+.humidity-details i ,.wind i{
+    font-size: 5rem;
+}
+
+
+.humidity-details .hu-num,.wind .wi-num{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.humidity-details .h-text ,.wind .h-text{
+    font-size: 1.7rem;
+    font-weight: 700;
+}

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="../css/landing page.css">
+</head>
+
+<body>
+    <header class="section-navbar">
+        <div class="container">
+            <div class="header-card">
+                <img class="my_img" src="../images/icon/web_logo.png" alt="">
+
+                <input type="text" class="search" id="search-me" placeholder="search">
+
+
+                <nav>
+                    <ul>
+                        <li><a href="../html/landing page.html">Home</a></li>
+                        <li><a href="../html/experties.html">Experties</a></li>
+                        <li><a href="../html/product.html">Product</a></li>
+
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Dropdown</button>
+                                <div class="dropdown-content">
+                                    <a href="">Photo Gallery</a>
+                                    <a href="#">Chat Boat</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li><a href="#contact-us">Contact us</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </nav>
+
+                <div class="two-option">
+
+                    <img class="my_img" onClick="location.href='../html/cart.html'" src="../images/icon/cart.png" alt="">
+
+                    <div class="two-logo">
+                        <div class="two" onclick="display()">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+
+                        <img onclick="account_display()" class="my_img" src="../images/icon/account.svg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="slide-bar ">
+        <div class="container">
+            <div class="slides">
+
+                <div class="slide">
+                    <div class="content">
+                        <p class="heading-para">Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolorem inventore eveniet
+                            quasi, illo autem reprehenderit aliquid sapiente officiis cupiditate odio?</p>
+                    </div>
+                    <div class="image">
+                        <img class="slide-img" src="../images/slider/slide1.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- <div class="slide">
+                    <div class="content">
+                        <h1>Lorem, ipsum dolor.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, laboriosam. Voluptatibus nemo culpa accusantium sequi voluptas atque incidunt laudantium facilis fugiat!
+                        </p>
+                    </div>
+                    <div class="image">
+                        <img class="slide-img" src="../images/slider/slide2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="content">
+                        <h1>Lorem, ipsum dolor.</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, consectetur? Ea quaerat nobis autem tempore unde at nostrum quia quam molestiae!</p>
+                    </div>
+                    <div class="image">
+                        <img class="slide-img"  src="../images/slider/slide3.jpg" alt="">
+                        
+                        ]
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </main>
+
+
+    <main class="opt-bar opt-bar-not-display" id="dis">
+        <ul>
+            <li><a href="landing page.html">Home</a></li>
+            <li><a href="../html/experties.html">Experties</a></li>
+            <li><a href="../html/product.html">Product</a></li>
+            <li><a href="#">Vegitable</a></li>
+
+            <li><a href="#contact-us">Contact us</a></li>
+            <li><a href="#">Help</a></li>
+            <li onclick="not_display()">Exit</li>
+        </ul>
+    </main>
+
+    <main class="Account  opt-bar-not-display" id="acc-data">
+        <img onclick="account_not_display()" class="cross" src="../images/icon/cancel.png" alt="">
+        <img src="../images/icon/user.png" class="acc-img" alt="">
+
+        <p class="username">Chanaksh_</p>
+
+        <div class="my_full_data">
+            <div class="email-detail">
+                <p class="e-head">email-</p>
+                <p class="my-email">chanakshmetkar@gmail.com</p>
+            </div>
+            <p class="ch-btn">Change email</p>
+
+            <div class="mob-details">
+                <p id="m-head">Mobile Number-</p>
+                <div class="serial">
+                    <select id="serial">
+                        <option value="+91">+91</option>
+                        <option value="+92">+92</option>
+                        <option value="+93">+93</option>
+                        <option value="+94">+94</option>
+                    </select>
+                    <p>9970971712</p>
+                </div>
+
+
+            </div>
+            <p class="ch-btn-num">Change Number</p>
+
+            <div class="location">
+                <p class="l-head">Location-</p>
+                <p class="detail">India</p>
+            </div>
+
+        </div>
+
+        <div class="three-option">
+            <ul>
+                <div class="two-pro">
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Setting</a></li>
+                </div>
+                <li><a href="#">Log Out</a></li>
+            </ul>
+        </div>
+    </main>
+    <main class="advertise">
+        <div class="container">
+            <p class="welcome-head">WELCOME TO OCAP AGRO</p>
+            <p class="wel-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, aperiam possimus. Quos
+                nam cum, nesciunt et vel eveniet fuga laborum itaque reprehenderit enim sapiente alias facere! Culpa
+                magnam exercitationem quo voluptatum itaque, pariatur corporis?</p>
+            <div class="three-section">
+                <div class="add-sec">
+                    <div class="qua-img">
+                        <img src="../images/icon/best-quality.png" alt="">
+                    </div>
+                    <p class="quality-head">Best Quality</p>
+                    <p class="quality-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus
+                        possimus fugit iure doloribus, rem minima animi sapiente quis dicta tempore expedita harum
+                        corporis inventore repellendus voluptatibus laudantium earum quia ad vero aliquam. Maiores.</p>
+                </div>
+                <div class="add-sec">
+                    <div class="qua-img">
+                        <img src="../images/icon/fast-deliveries.png" alt="">
+                    </div>
+                    <p class="quality-head">Faster Deliveries</p>
+                    <p class="quality-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, quaerat.
+                        Rem vel consequuntur quidem inventore cumque a accusamus maxime officia modi repudiandae
+                        similique, ad rerum aliquid, unde dignissimos obcaecati facilis sequi. Harum, illum facilis?</p>
+                </div>
+                <div class="add-sec">
+                    <div class="qua-img">
+                        <img src="../images/icon/experiance.png" alt="">
+                    </div>
+                    <p class="quality-head">Serving from 5 years</p>
+                    <p class="quality-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi odit
+                        corporis ullam fugit, doloribus modi officiis voluptates consequuntur, dolore optio voluptas
+                        quidem odio eos nulla in dignissimos sapiente aliquid id repudiandae fuga laborum tempore.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="w-head">
+        <p>whether</p>
+    </div>
+    <main class="container">
+        <div class="border-me">
+            <img src="../images/icon/whether-report.png" alt="">
+            <div class="h-btn">
+                <p>what is today's whether?</p>
+                <a href="../html/weather.html">click me</a>
+            </div>
+
+        </div>
+    </main>
+
+
+    <main class="all-content container ">
+        <div class="C-head">
+            <p>Crops</p>
+        </div>
+        <div class="crop-image">
+            <a href="#"><img src="../images/crops/bringel.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/cabage.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/capsicum.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/cauliFlower.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/Cluster bean.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/coriender.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/corn-cobs.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/cotton.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/Cucumber.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/custerd apple.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/Fenugreek.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/garlik.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/gauva.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/ginger.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/grapes.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/Green chilly.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/ground nut.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/lady finger.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/mango.jpg" alt=""></a>
+            <a href="../html/product_details.html"><img src="../images/crops/onion.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/palak.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/papaya.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/pea plant.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/pinnaple.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/pomogranet.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/Potato.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/Red chilly.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/rice.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/Sugarcane.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/tomato.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/Watermelon-Wallpapers.jpg" alt=""></a>
+            <a href="#"><img src="../images/crops/wheatr.jpg" alt=""></a>
+        </div>
+    </main>
+    
+    
+    <footer id="contact-us">
+        <div class="container">
+            <p class="contact-head">contact us</p>
+            <div class="gird-contact">
+                <div class="quick-form">
+
+                    <h1>Quick contact</h1>
+                    <form action="" class="form">
+                        <div class="input">
+                            <label for="name">Your Name</label>
+                            <input name="name" type="text" id="name" required>
+                        </div>
+                        <div class="input">
+                            <label for="email">Your Email</label>
+                            <input name="email" type="email" id="email" required>
+                        </div>
+                        <div class="input">
+                            <label for="extra">Your Message</label>
+                            <textarea name="extra" type="text" id="extra"></textarea>
+                        </div>
+
+                        <div class="sub-btn">
+                            <input id="btn" type="submit" value="submit" placeholder="Submit">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="address-details">
+                    <div id="ADDRESS">
+                        <h1 class="add-head">ADDRESS</h1>
+                        <div class="seperate">
+                            <span class="line"></span>
+                            <span id="square"></span>
+                            <span class="line"></span>
+                        </div>
+                        <div class="add-details">
+                            <div class="main-details">
+                                <div class="location">
+                                    <i class='bx bx-location-plus'></i>
+                                    <h2>OCAP AGRO</h2>
+                                </div>
+
+                                <p>Plot No. 14, Sector No. 2, NH 27,</p>
+                                <p>Gayatri nagar,</p>
+                                <p>Behind rajmata mangal karyalay,nashil</p>
+                                <p>(nashik) Dist. nashik (maharashtra).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="managing-div">
+                        <h1 class="add-head">MANAGING DIRECTOR</h1>
+                        <div class="seperate">
+                            <span class="line"></span>
+                            <span id="square"></span>
+                            <span class="line"></span>
+                        </div>
+
+                    <div class="director">
+                        <div class="dir" id="dir-one">
+                            <p class="dir-name">Pritesh Sonar</p>
+                            <p class="dir-num">+91 9370577854</p>
+                            <p class="dir-mail">priteshs2003@gmail.com</p>
+                        </div>
+                        
+                        <div class="dir" id="dir-two">
+                            <p class="dir-name">Chanaksh Metkar</p>
+                            <p class="dir-num">+91 7410757602</p>
+                            <p class="dir-mail">priteshs2003@gmail.com</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div id="contact-person">
+                        <h1 class="add-head">CONTACT PERSON</h1>
+                        <div class="seperate">
+                            <span class="line"></span>
+                            <span id="square"></span>
+                            <span class="line"></span>
+                        </div>
+
+                        <div class="conatact-me">
+                        <div class="con-person" id="con-one">
+                            <p>Siddhant Dalvi</p>
+                            <p>+91 8766441378</p>
+                        </div>
+                        <div class="con-person" id="con-one">
+                            <p>Abhishek pawar</p>
+                            <p>+91 8605771552</p>
+                        </div>
+                        <div class="con-person" id="con-one">
+                            <p>shruti pardeshi</p>
+                            <p>+91 8010465724</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div id="mail-info">
+                        <h1 class="add-head">MAIL INFO</h1>
+                        <div class="seperate">
+                            <span class="line"></span>
+                            <span id="square"></span>
+                            <span class="line"></span>
+                        </div>
+                        <div class="gmail-me">
+                                <i class='bx bxl-gmail'></i>
+                                <div class="gmial-me-on">
+                                <p>agro@gmail.com</p>
+                                <p>indianagro@gmial.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+    
+</body>
+<script src="../javascript/landing.js"></script>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/weather.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="enter the location">
+            <button class='bx bx-search'></button>
+        </div>
+
+        <div class="weather">
+            <img src="" class="my-img-data" alt="not found">
+            <div class="celci">
+                <p class="temp "></p>
+                <p class="unit"></p>
+                
+            </div>
+            <p class="description">Broken Clouds</p>
+            <p class="city"></p>
+        </div>
+
+        <div class="weather-details">
+
+            <div class="humidity-details">
+                <i class='bx bx-water'></i>
+                <div class="text">
+                    <p class="hu-num"></p>
+                    <p class="h-text">Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class='bx bx-wind'></i>
+                <div class="text">
+                    <p class="wi-num"></p>
+                    <p class="h-text">Speed</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="../javascript/weather.js"></script>
+</html>
+

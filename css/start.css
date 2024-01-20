@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+   
+    background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)), url('../images/background/start.jpg'); 
+}
+
+.container{
+    position: absolute;
+    
+    background-color: black;
+    height: 24rem;
+    width: 100%;
+    bottom: 0;
+}
+
+img{
+  height: 5.5rem;
+  width: 12rem;
+  margin-left:1rem ;
+}
+.logo-head{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    height: 59%;
+}
+
+.logo-head p{
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+
+
+.container a{
+    width: 9rem;
+    height: 3.6rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: yellow;
+    border: 0.2rem solid white;
+    font-size: 1.9rem;
+    padding: 0.6rem 2.5rem;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    outline: none;
+}
+
+a:hover{
+    background-color: pink;
+}
+
+.greet{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+}
+
+.container .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
