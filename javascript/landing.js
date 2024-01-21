@@ -37,7 +37,7 @@ element.addEventListener('keypress',(e)=>{
     let search_val=element.value;
     console.log(search_val);
     window.localStorage.setItem('search-content',search_val);
-    window.open('../search/search.html');
+    window.open('../html/search.html');
 
     
    }

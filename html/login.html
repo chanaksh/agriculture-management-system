@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/login.css">
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/login.css">
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
 </head>
+
 <body>
-    <div class=" short container-login ">
-      <div class="button-box">
-        <div class="btn"></div>
-       <button type="button" class="log" onclick="login()">Login</button>
-       <button type="button" class="log" onclick="register()">Register</button>
-      </div>
+  <div class=" short container-login ">
+    <div class="button-box">
+      <div class="btn"></div>
+      <button type="button" class="log" onclick="login()">Login</button>
+      <button type="button" class="log" onclick="register()">Register</button>
+    </div>
     <div class="form-input" id="Login">
-      <form  action="" class="">
+      <form action="" class="">
         <input type="text" class="input-btn" placeholder="Username" required>
         <input type="password" class="input-btn" placeholder="Password" required>
         <input type="checkbox" class="check" required><span class="check-content">Remember password</span>
-        
-          <button type="submit" class="submit-btn">Log in</button>
+
+        <button type="submit" class="submit-btn">Log in</button>
       </form>
 
       <div class="divide">
         <div class="line"></div>
-      <div  class="or_text">OR</div>
-      <div class="line"></div>
-    </div>
-
-    <div class="icon_option">
-      <img class="icon" src="../images/icon/f_icon.png" alt="">
-      <img class="icon" src="../images/icon/g_icon.png" alt="">
-      <img class="icon" src="../images/icon/i_icon.png" alt="">
-    </div>
+        <div class="or_text">OR</div>
+        <div class="line"></div>
       </div>
-      <form id="register" action="" class="form-input">
-        <input type="text" class="input-btn" placeholder="Username\Name" required>
-        <input type="email" class="input-btn" id="email" placeholder="Email" required>
-        <div class="optverify">
+
+      <div class="icon_option">
+        <img class="icon" src="../images/icon/f_icon.png" alt="">
+        <img class="icon" src="../images/icon/g_icon.png" alt="">
+        <img class="icon" src="../images/icon/i_icon.png" alt="">
+      </div>
+    </div>
+    <form id="register" action="" class="form-input">
+      <input type="text" class="input-btn" placeholder="Username\Name" required>
+      <input type="email" class="input-btn" id="email" placeholder="Email" required>
+      <!-- <div class="optverify">
         <input type="number" id="otp_inp" class="input-btn"   placeholder="OTP">
         <button id="otp_btn" class="otp_btn">Verify</button>
+      </div> -->
+      <!-- <button class="send-btn" onclick="sendOTP()">Send OTP</button> -->
+      <!-- <button class="send-btn" id="generateBtn">Send OTP</button> -->
+      <input type="number" class="input-btn" placeholder="Mobile Number">
+      <input type="password" class="input-btn" placeholder=" Create Password">
+      <input type="checkbox" class="check" required><span class="check-content">I agree with all terms and
+        condition</span>
+      <Button type="submit" class="submit-btn" id="register-btn" value="submit">Register</Button>
+      <div class="divide">
+        <div class="line"></div>
+        <div class="or_text">OR</div>
+        <div class="line"></div>
       </div>
-     <!-- <button class="send-btn" onclick="sendOTP()">Send OTP</button> -->
-     <button class="send-btn" id="generateBtn">Send OTP</button>
-      <input type="number" class="input-btn" placeholder="Mobile Number" >
-        <input type="password" class="input-btn" placeholder=" Create Password" >
-        <input type="checkbox" class="check" required><span class="check-content">I agree with all terms and condition</span>
-        <Button type="submit" class="submit-btn" value="submit">Register</Button>
-      </form>
-
-    </div>
-    <script src="../javascript/login.js"></script>
+    
+      <a id="continue-google"target="_blank" href="../javascript/google/views/auth.ejs">continue with google</a>
+    
+    </form>
+  </div>
+  <script src="../javascript/login.js"></script>
 </body>
 
 
