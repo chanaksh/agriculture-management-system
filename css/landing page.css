@@ -260,13 +260,14 @@ html{
     height: 45rem;
     border-radius: 4rem;
     border: 2px solid pink;
-    position: absolute;
+    position: fixed;
     top: 10rem;
     right: 0;
     -webkit-border-radius: 4rem;
     -moz-border-radius: 4rem;
     -ms-border-radius: 4rem;
     -o-border-radius: 4rem;
+    z-index: 5;
 }
 
 .opt-bar ul{
@@ -300,10 +301,10 @@ html{
 
 .Account{
    width: 35rem;
-   z-index: 1;
+   z-index: 4;
    height: 53rem;
    border: 1px solid green;
-   position: absolute;
+   position: fixed;
    top: 10rem;
    right: 1rem;
    background-color: white;
@@ -312,6 +313,16 @@ html{
    -moz-border-radius: 4rem;
    -ms-border-radius: 4rem;
    -o-border-radius: 4rem;
+}
+
+.blur-me-black-shadow{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    position:  fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
 }
 
 .opt-bar-display{

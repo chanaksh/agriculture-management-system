@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+.container{
+    max-width: 142rem;
+     padding:2.4rem 9rem;
+     margin: 0 auto;
+}
+
+.navbar{
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
+.navbar p{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.question p{
+    font-size: 2rem;
+    letter-spacing: 0.04rem;
+    /* border: 2px solid yellow; */
+    padding: 2rem 1rem;
+    margin-right:1rem ;
+}
+
+.question-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 12rem;
+   
+}
+
+.question{
+    /* border: 1px solid red; */
+    padding: 0rem 4rem;
+}
+
+.question-num p{
+    font-weight: 700;
+}
+
+.question-num{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.up-btn{
+    position: relative;
+    top: 1.5rem;
+    right: 3rem;
+    font-size: 3rem;
+    
+}
+
+.visible{
+    visibility: visible;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.down-btn{
+    position: relative;
+    top: 2.5rem;
+    right: 3rem;
+    font-size: 3rem;
+}
+
+.answer{
+    background-color: azure;
+    border-bottom:1px solid black ;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.back-arrow{
+    position: fixed;
+    top: 4rem;
+    left: 4rem;
+    z-index: 2;
+    
+}
+
+.back-arrow i{
+    font-size: 4.5rem;
+}

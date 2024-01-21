@@ -192,6 +192,18 @@ button{
     left:  2rem;
 }
 
+.back-arrow{
+    position: fixed;
+    top: 4rem;
+    left: 4rem;
+    z-index: 2;
+    
+}
+
+.back-arrow i{
+    font-size: 4.5rem;
+}
+
 @media (max-width:820px) {
     .expert{
         flex-direction: column;
@@ -212,3 +224,4 @@ button{
         gap: 1rem;
     }
 }
+

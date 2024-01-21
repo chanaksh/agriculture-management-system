@@ -10,9 +10,9 @@ html{
 }
 
 .image-gallery{
+   
     width: 90%;
-    margin: 10rem auto 5rem;
-    border: 1px solid gold;
+    margin: 16rem auto 5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
     gap: 2rem;
@@ -48,28 +48,29 @@ html{
     width: 100%;
     height: 100vh;
     background: rgba(0,0,0,0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 5rem;
+    left: 0;
     z-index: 1;
 }
 
 .full-image img{
-    width: 60rem;
-    height: 60rem;
+    width: 45rem;
+    height: 45rem;
     border: 1px solid black;
+
  
 }
 
 .full-image span{
     position: absolute;
-    top: 5rem;
+    top: 10rem;
     right: 5rem;
     font-size: 5rem;
     color: white;
+    z-index: 3;
    
 }
 
@@ -78,4 +79,38 @@ html{
 }
 .show{
     display: flex;
+}
+
+header{
+    background:linear-gradient(to right, #00b09b, #96c93d);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    
+}
+
+.navbar{
+    max-width: 142rem;
+    padding: 3rem 9rem;
+    
+}
+
+.navbar p{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.back-arrow{
+    position: fixed;
+    top: 4rem;
+    left: 4rem;
+    z-index: 2;
+    
+}
+
+.back-arrow i{
+    font-size: 4.5rem;
 }
