@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 3rem 9rem;
+    max-width: 142rem;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/background/change_email_back.jpg'),rgba(0,0,0,0.9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.box{
+    width: 50rem;
+    height: 20rem;
+    border: 1px solid gray;
+    backdrop-filter: blur(7px);
+    border: 0.4rem solid rgba(255,255,255,0.5);
+    
+    
+}
+
+.input-lab{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    top: 3rem;
+}
+
+label{
+    font-size: 2rem;
+    color: rgb(30, 50, 41);
+    text-transform: capitalize;
+    text-shadow: 0.5px 0.5px white;
+    font-weight: 700;
+    
+
+   
+}
+
+
+input{
+
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 0.2rem solid white;
+    width: 100%;
+
+}
+
+
+.submit-btn{
+    position: relative;
+    top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.submit-btn button{
+    margin: 0rem auto;
+    width: 13rem;
+    height: 3.4rem;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius:0.7rem ;
+    -webkit-border-radius:0.7rem ;
+    -moz-border-radius:0.7rem ;
+    -ms-border-radius:0.7rem ;
+    -o-border-radius:0.7rem ;
+    background-color: rgb(115, 145, 135);
+    font-size: 2rem;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 700;
+
+}
+
+.submit-btn button:hover{
+    cursor: pointer;
+    background-color:rgb(75, 88, 84) ;
+}
+
+
+.animation{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.hide{
+    display: none;
+
+}
+.show{
+    display: show;
+}

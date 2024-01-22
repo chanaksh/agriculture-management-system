@@ -48,3 +48,33 @@ element.addEventListener('keypress',(e)=>{
     
    }
 });
+
+let element2=document.querySelector('#change-btn-email');
+
+element2.addEventListener('click',()=>{
+    
+    window.open('../html/change_email.html');
+    
+});
+
+let element3=document.querySelector('#change-btn-num');
+
+element3.addEventListener('click',()=>{
+    
+    window.open('../html/change_number.html');
+    
+});
+
+function alertme(){
+    let name=document.querySelector('#name');
+    let email=document.querySelector('#email');
+    let extra=document.querySelector('#extra');
+    if(name.value=="" || email.value=="" || extra.value==""){
+        alert("please fill full information to contact with us")
+       
+    }
+    else{
+        
+        alert("we will contact with us as soon as possible");
+    }
+}

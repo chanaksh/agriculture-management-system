@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Krushi Sevak</title>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="../css/landing page.css">
 </head>
@@ -34,7 +34,6 @@
                                     <a href="#">Link 3</a>
                                 </div>
                             </div>
-
                         </li>
                         <li><a href="#contact-us">Contact us</a></li>
                         <li><a href="../html/help.html">Help</a></li>
@@ -52,7 +51,7 @@
                             <div class="line"></div>
                         </div>
 
-                        <img onclick="account_display()" class="my_img" src="../images/icon/account.svg" alt="">
+                        <img onclick="account_display()" class="my_img" src="../images/icon/user.png" alt="">
 
                     </div>
                 </div>
@@ -62,56 +61,20 @@
 
     <main class="slide-bar ">
         <div class="container">
-            <div class="slides">
-
-                <div class="slide">
-                    <div class="content">
-                        <p class="heading-para">Lorem, ipsum dolor.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolorem inventore eveniet
-                            quasi, illo autem reprehenderit aliquid sapiente officiis cupiditate odio?</p>
-                    </div>
-                    <div class="image">
-                        <img class="slide-img" src="../images/slider/slide1.jpg" alt="">
-                    </div>
-                </div>
-
-                <!-- <div class="slide">
-                    <div class="content">
-                        <h1>Lorem, ipsum dolor.</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, laboriosam. Voluptatibus nemo culpa accusantium sequi voluptas atque incidunt laudantium facilis fugiat!
-                        </p>
-                    </div>
-                    <div class="image">
-                        <img class="slide-img" src="../images/slider/slide2.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="slide">
-                    <div class="content">
-                        <h1>Lorem, ipsum dolor.</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, consectetur? Ea quaerat nobis autem tempore unde at nostrum quia quam molestiae!</p>
-                    </div>
-                    <div class="image">
-                        <img class="slide-img"  src="../images/slider/slide3.jpg" alt="">
-                        
-                        ]
-                    </div>
-                </div> -->
-
+            <div class="slides1">
             </div>
+            <div class="slides2"></div>
         </div>
-    </main>
-
+    </main>     
 
     <main class="opt-bar opt-bar-not-display" id="dis">
         <ul>
             <li><a href="landing page.html">Home</a></li>
             <li><a href="../html/experties.html">Experties</a></li>
             <li><a href="../html/product.html">Product</a></li>
-            <li><a href="#">Vegitable</a></li>
-
-            <li><a href="#contact-us">Contact us</a></li>
-            <li><a href="#">Help</a></li>
+            <li><a href="../html/gallery.html">gallery</a></li>
+            <li><a href="#contact-us">Chatboat</a></li>
+            <li><a href="../html/help.html">Help</a></li>
             <li onclick="not_display()">Exit</li>
         </ul>
     </main>
@@ -127,7 +90,7 @@
                 <p class="e-head">email-</p>
                 <p class="my-email">chanakshmetkar@gmail.com</p>
             </div>
-            <p class="ch-btn">Change email</p>
+            <p class="ch-btn" id="change-btn-email">Change email</p>
 
             <div class="mob-details">
                 <p id="m-head">Mobile Number-</p>
@@ -143,7 +106,7 @@
 
 
             </div>
-            <p class="ch-btn-num">Change Number</p>
+            <p class="ch-btn-num" id="change-btn-num">Change Number</p>
 
             <div class="location">
                 <p class="l-head">Location-</p>
@@ -275,11 +238,11 @@
                         </div>
                         <div class="input">
                             <label for="extra">Your Message</label>
-                            <textarea name="extra" type="text" id="extra"></textarea>
+                            <textarea name="extra" type="text" id="extra" required></textarea>
                         </div>
 
                         <div class="sub-btn">
-                            <input id="btn" type="submit" value="submit" placeholder="Submit">
+                            <input id="btn" type="submit" onclick="alertme()" value="submit" placeholder="Submit">
                         </div>
                     </form>
                 </div>

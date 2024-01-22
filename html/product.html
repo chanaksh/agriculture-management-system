@@ -3,61 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fertilizers</title>
     <link rel="stylesheet" href="../css/product.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
 </head>
 <body>
-    <header class="section-navbar">
-        <div class="container">
-            <div class="header-card">
-                <img class="my_img" src="../images/icon/web_logo.png" alt="">
-
-                <input type="text" class="search" placeholder="search">
-
-
-                <nav>
-                    <ul>
-                        <li><a href="landing page.html">Home</a></li>
-                        <li><a href="experties.html">Experties</a></li>
-                        <li><a href="product.html">Product</a></li>
-                        <li><a href="#">Vegitable</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Help</a></li>
-                    </ul>
-                </nav>
-
-                <div class="two-option">
-
-                    <img class="my_img" src="../logo_icon/cart.png" alt="">
-
-                    <div class="two-logo" >
-                        <div class="two"  onclick="display()">
-                            <div class="line"></div>
-                            <div class="line"></div>
-                            <div class="line"></div>
-                        </div>
-
-                        <img class="my_img" src="../logo_icon/account.svg" alt="">
-
-                    </div>
-                </div>
-            </div>
+    <header class="section-navbar " >
+        <div class="main-heading-block container">
+            <p>OUR FERTILIZER</p>
         </div>
     </header>
 
-    <main class="opt-bar opt-bar-not-display" id="dis" >
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Experties</a></li>
-            <li><a href="product.html">Product</a></li>
-            <li><a href="#">Vegitable</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Help</a></li>
-            <li onclick="not_display()">Exit</li>
-        </ul>
-        </main>
-
-    <div class="heading-pro">
+    <div class="heading-pro" id="first">
         <p>TOMATO FERTILIZER</p>
     </div>
     <div class="card-container">
@@ -221,7 +178,8 @@
 
     </div>
 
-    
+    <div class="back-arrow"><i class='bx bx-left-arrow-alt'></i></div>
+    <script src="../javascript/product.js"></script>
 </body>
-<script src="../javascript/product.js"></script>
+
 </html>
