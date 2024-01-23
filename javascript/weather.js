@@ -60,3 +60,16 @@ search_btn.addEventListener('click',()=>{
 search_btn.addEventListener('click',()=>{
     checkweather(search_box.value);
 });
+
+
+let element1=document.querySelector('.back-arrow');
+
+element1.addEventListener('click',()=>{
+    window.open('../html/landing page.html');
+   });
+
+let element4 = document.querySelector('#hide-data');
+
+search_btn.addEventListener('click',()=>{
+  element4.classList.remove('hide');
+});

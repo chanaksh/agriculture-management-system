@@ -7,6 +7,7 @@
     <title>Krushi Sevak</title>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="../css/landing page.css">
+    
 </head>
 
 <body>
@@ -30,7 +31,7 @@
                                 <button class="dropbtn">Dropdown</button>
                                 <div class="dropdown-content">
                                     <a href="../html/gallery.html">Photo Gallery</a>
-                                    <a href="#">Chat Boat</a>
+                                    <a href="../html/advance_chat_boat.html">Chat Boat</a>
                                     <a href="#">Link 3</a>
                                 </div>
                             </div>
@@ -74,7 +75,7 @@
             <li><a href="../html/experties.html">Experties</a></li>
             <li><a href="../html/product.html">Product</a></li>
             <li><a href="../html/gallery.html">gallery</a></li>
-            <li><a href="#contact-us">Chatboat</a></li>
+            <li><a href="../html/advance_chat_boat.html">Chatboat</a></li>
             <li><a href="../html/help.html">Help</a></li>
             <li onclick="not_display()">Exit</li>
         </ul>
@@ -185,38 +186,40 @@
             <p>Crops</p>
         </div>
         <div class="crop-image">
-            <a href="#"><img src="../images/crops/bringel.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/cabage.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/capsicum.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/cauliFlower.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/Cluster bean.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/coriender.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/corn-cobs.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/cotton.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/Cucumber.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/custerd apple.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/Fenugreek.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/garlik.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/gauva.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/ginger.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/grapes.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/Green chilly.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/ground nut.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/lady finger.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/mango.jpg" alt=""></a>
-            <a href="../html/product_details.html"><img src="../images/crops/onion.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/palak.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/papaya.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/pea plant.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/pinnaple.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/pomogranet.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/Potato.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/Red chilly.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/rice.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/Sugarcane.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/tomato.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/Watermelon-Wallpapers.jpg" alt=""></a>
-            <a href="#"><img src="../images/crops/wheatr.jpg" alt=""></a>
+            <button value="0" onclick="getval(this.value)"><img src="../images/crops/onion.jpg" alt=""></button>
+            <button value="1" onclick="getval(this.value)"><img src="../images/crops/cotton.jpg" alt=""></button>
+            <button value="2" onclick="getval(this.value)"><img src="../images/crops/Watermelon-Wallpapers.jpg" alt=""></button>
+            <button value="3" onclick="getval(this.value)"><img src="../images/crops/tomato.jpg" alt=""></button>
+            <button value="4" onclick="getval(this.value)"><img src="../images/crops/pomogranet.jpg" alt=""></button>
+            <button value="5" onclick="getval(this.value)"><img src="../images/crops/grapes.jpg" alt=""></button>
+            <button value="6" onclick="getval(this.value)"><img src="../images/crops/corn-cobs.jpg" alt=""></button>
+            <button value="7" onclick="getval(this.value)"><img src="../images/crops/Sugarcane.jpg" alt=""></button>
+            <button value="8" onclick="getval(this.value)"><img src="../images/crops/garlik.jpg" alt=""></button>
+            <button value="9" onclick="getval(this.value)" ><img src="../images/crops/bringel.jpg" alt=""></button>
+            <button value="10" onclick="getval(this.value)"><img src="../images/crops/Potato.jpg" alt=""></button>
+            <button value="11" onclick="getval(this.value)"><img src="../images/crops/Red chilly.jpg" alt=""></button>
+            <button value="12" onclick="getval(this.value)"><img src="../images/crops/capsicum.jpg" alt=""></button>
+            <button value="13" onclick="getval(this.value)"><img src="../images/crops/Cucumber.jpg" alt=""></button>
+            <button value="14" onclick="getval(this.value)"><img src="../images/crops/carrot.jpg" alt=""></button>
+
+            <button value="Cabage" onclick="getval(this.value)"><img src="../images/crops/cabage.jpg" alt=""></button>
+            <button value="CauliFlower" onclick="getval(this.value)"><img src="../images/crops/cauliFlower.jpg" alt=""></button>
+            <button value="Cluster bean" onclick="getval(this.value)"><img src="../images/crops/Cluster bean.jpg" alt=""></button>
+            <button value="Coriender" onclick="getval(this.value)"><img src="../images/crops/coriender.jpg" alt=""></button>
+            <button value="Custerd apple" onclick="getval(this.value)"><img src="../images/crops/custerd apple.jpg" alt=""></button>
+            <button value="Fenugreek" onclick="getval(this.value)"><img src="../images/crops/Fenugreek.jpg" alt=""></button>
+            <button value="Gauva" onclick="getval(this.value)"><img src="../images/crops/gauva.jpg" alt=""></button>
+            <button value="Ginger" onclick="getval(this.value)"><img src="../images/crops/ginger.jpg" alt=""></button>
+            <button value="Green chilly" onclick="getval(this.value)"><img src="../images/crops/Green chilly.jpg" alt=""></button>
+            <button value="Ground nut" onclick="getval(this.value)"><img src="../images/crops/ground nut.jpg" alt=""></button>
+            <button value="Lady finger" onclick="getval(this.value)"><img src="../images/crops/lady finger.jpg" alt=""></button>
+            <button value="Mango" onclick="getval(this.value)"><img src="../images/crops/mango.jpg" alt=""></button>
+            <button value="Palak" onclick="getval(this.value)"><img src="../images/crops/palak.jpg" alt=""></button>
+            <button value="Papaya" onclick="getval(this.value)"><img src="../images/crops/papaya.jpg" alt=""></button>
+            <button value="Pea plant" onclick="getval(this.value)"><img src="../images/crops/pea plant.jpg" alt=""></button>
+            <button value="Pinnaple" onclick="getval(this.value)"><img src="../images/crops/pinnaple.jpg" alt=""></button>
+            <button value="Wheatr" onclick="getval(this.value)"><img src="../images/crops/wheatr.jpg" alt=""></button>
+        
         </div>
     </main>
 

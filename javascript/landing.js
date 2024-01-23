@@ -78,3 +78,9 @@ function alertme(){
         alert("we will contact with us as soon as possible");
     }
 }
+
+
+function getval(pic){
+    window.localStorage.setItem('intro-image',pic);
+    window.open('../html/product_details.html');
+}
